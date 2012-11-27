@@ -10,7 +10,7 @@ from google.appengine.ext import db
 from margaritas import TwilioMargaritas
 
 # Config
-IMPURL = 'https://api.electricimp.com/v1/e0c48acbd932287f/30f11075f8ae0101'
+IMPURL = 'https://api.electricimp.com/v1/<code1>/<code2>'
 
 # Global variables
 tw_margarita = TwilioMargaritas(IMPURL)
